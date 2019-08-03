@@ -8,7 +8,7 @@ Server TAG Need to be same as Client
 ```bash
 
 go get .
-go build -o server *.go 
+go build . 
 
 
 ./client {{TAG}}
